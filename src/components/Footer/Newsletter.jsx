@@ -4,7 +4,7 @@ import './Newsletter.css';
 
 function Newsletter() {
   return (
-    <div className="app__newsletter">
+    <div className="app__newsletter"  data-aos="zoom-in" data-aos-duration="400">
       <div className="app__newsletter-heading">
         <SubHeading title="Newsletter" />
         <h1 className="headtext__cormorant">Subscribe To Our Newsletter</h1>

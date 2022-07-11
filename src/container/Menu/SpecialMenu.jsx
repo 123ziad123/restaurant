@@ -13,7 +13,7 @@ function SpecialMenu() {
       </div>
       <div className="app__specialMenu-menu">
         
-        <div className="app__specialMenu-menu_wine flex__center">
+        <div className="app__specialMenu-menu_wine flex__center"  data-aos="fade-right" data-aos-duration="400">
           <p className='app__specialMenu-menu_heading'>Wine &amp; Beer</p>
           <div className="app__specialMenu-menu_items">
             {data.wines.map((wine, index) =>( 
@@ -22,11 +22,11 @@ function SpecialMenu() {
           </div>
         </div>
         
-        <div className="app__specialMenu-menu_img">
+        <div className="app__specialMenu-menu_img"  data-aos="fade-up" data-aos-duration="400">
           <img src={ images.menu } alt="menu img"/>
         </div>
         
-        <div className="app__specialMenu-menu_cocktail flex__center">
+        <div className="app__specialMenu-menu_cocktail flex__center" data-aos="fade-left" data-aos-duration="400">
           <p className='app__specialMenu-menu_heading'>Cocktails</p>
           <div className="app__specialMenu-menu_items">
             {data.cocktails.map((cocktail, index) =>( 

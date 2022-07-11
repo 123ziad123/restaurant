@@ -9,7 +9,7 @@ function AboutUs() {
       <div className='app__aboutus-overlay flex__center'>
         <img src={ images.G } alt="g letter" />
       </div>
-      <div className='app__aboutus-content flex__center'>
+      <div className='app__aboutus-content flex__center' data-aos="fade-right" data-aos-duration="400">
         <div className='app__aboutus-content_about'>
           <h1 className='headtext__cormorant'>About Us</h1>
           <img src={images.spoon} alt="about spoon" className="spoon_img" />
@@ -17,10 +17,10 @@ function AboutUs() {
           <button type='button' className='custom__button'>Know More</button>
         </div>
       </div>
-      <div className='app__aboutus-content_knife flex__center'>
+      <div className='app__aboutus-content_knife flex__center'  data-aos="fade-up" data-aos-duration="800">
         <img src={ images.knife } />
       </div>  
-      <div className='app__aboutus-content flex__center'>
+      <div className='app__aboutus-content flex__center' data-aos="fade-left" data-aos-duration="400">
         <div className='app__aboutus-content_history'>
           <h1 className='headtext__cormorant'>Our History</h1>
           <img src={images.spoon} alt="about spoon" className="spoon_img" />

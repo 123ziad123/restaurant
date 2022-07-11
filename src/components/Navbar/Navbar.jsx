@@ -11,7 +11,7 @@ function Navbar() {
   return (
     <nav className="app__navbar">
       {/* * */}
-      <div className='app__navbar-logo'>
+      <div className='app__navbar-logo' data-aos="fade-right" data-aos-duration="400">
         <img src={ images.gericht }  alt="app logo"/>
       </div>
       {/* * */}

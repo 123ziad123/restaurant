@@ -16,7 +16,7 @@ function Intro() {
   }
   
   return (
-    <div className="app__video">
+    <div className="app__video"  data-aos="flip-left" data-aos-duration="400">
       <video
         src={ meal }
         type='video/mp4'
